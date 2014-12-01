@@ -17,16 +17,17 @@ class UsersController < ApplicationController
 		@user = User.find(params[:id])
 	end
 
-	private
+	def index
+		@users = User.all
+	end
+
+	private 
 	#prevents attackers from getting this sensitive info
 		def user_params
 			params.require(:user).permit(:email, :password)
 		end
+		# ANYTHING IN HERE WILL BE PRIVATE, PUT STUFF ABOVE
 		#gives our app permisson to access both email and password
-
-	def index
-		@users = User.all
-	end
 
 
 end
