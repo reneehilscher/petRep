@@ -1,0 +1,17 @@
+GET -> read data
+POST -> create new record, with data for entire object
+PUT -> update existing record, with only changes
+DELETE -> delete existing record
+
+
+1) create home page with sign up button
+2) it will link to the path to create a new user
+
+
+users will have a: 
+email
+password
+
+
+
+

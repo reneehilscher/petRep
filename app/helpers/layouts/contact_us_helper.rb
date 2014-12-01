@@ -1,0 +1,2 @@
+module Layouts::ContactUsHelper
+end
