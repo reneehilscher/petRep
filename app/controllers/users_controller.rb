@@ -24,7 +24,7 @@ class UsersController < ApplicationController
 	private 
 	#prevents attackers from getting this sensitive info
 		def user_params
-			params.require(:user).permit(:email, :password)
+			params.require(:user).permit(:email, :password, :username)
 		end
 		# ANYTHING IN HERE WILL BE PRIVATE, PUT STUFF ABOVE
 		#gives our app permisson to access both email and password

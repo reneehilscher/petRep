@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get 'home' => "home#index"
   resources :users #needs to be plural
+  resources :posts #needs to be plural
+
 
   # get 'users/new' => 'users#new'
   # The priority is based upon order of creation: first created -> highest priority.

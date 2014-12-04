@@ -6,12 +6,13 @@ DELETE -> delete existing record
 
 1) create home page with sign up button
 2) it will link to the path to create a new user
+3) users will be able to create posts
+4) posts will have an image and a caption
 
 
 users will have a: 
 email
 password
-
 
 
 
